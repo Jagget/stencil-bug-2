@@ -1,0 +1,51 @@
+{
+  "name": "theui",
+  "version": "1.0.3",
+  "description": "My visual components library",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/the/the.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "lint": "tslint -c tslint.json --fix 'src/**/*.{ts,tsx}'",
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "start:es5": "stencil build --dev --watch --serve --es5",
+    "watch": "stencil build --dev --watch --es5",
+    "test": "stencil test --spec --e2e",
+    "test.light": "stencil test --spec",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "axios": "0.19.2"
+  },
+  "devDependencies": {
+    "@stencil/core": "1.13.0",
+    "@stencil/less": "1.0.0",
+    "@types/jest": "25.2.2",
+    "@types/puppeteer": "2.1.0",
+    "jest": "26.0.1",
+    "jest-cli": "26.0.1",
+    "less-plugin-autoprefix": "2.0.0",
+    "prettier": "2.0.5",
+    "puppeteer": "3.0.4",
+    "rollup": "2.10.2",
+    "rollup-plugin-clear": "2.0.7",
+    "rollup-plugin-copy": "3.3.0",
+    "rollup-plugin-license": "2.0.0",
+    "rollup-plugin-progress": "1.1.2",
+    "tslint": "6.1.2",
+    "tslint-stencil": "1.0.1"
+  },
+  "author": "Jagget",
+  "license": "Apache-2.0"
+}

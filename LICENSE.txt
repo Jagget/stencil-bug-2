@@ -1,0 +1,6 @@
+Apache 2.0 License
+
+All code developed by ME for this UI kit is released with an Apache 2.0 license, as set forth below.
+Third-party components, software, and/or libraries (collectively, "components") of this UI kit are included
+under the licenses specified by their authors.  For information about these third-party licenses, refer
+to the separate legal notices governing such components at NOTICE file at the top level of the package.
